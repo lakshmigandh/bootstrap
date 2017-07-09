@@ -1,26 +1,27 @@
 {
-  "name": "node-js-getting-started",
+  "name": "Bootstrap",
   "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A sample Bootstrap app",
   "engines": {
     "node": "6.10.2"
   },
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "harp server --port $PORT"
   },
+  "main": "index.html",
   "dependencies": {
+    "harp": "*",
     "ejs": "2.5.6",
     "express": "4.15.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/lakshmigandh/bootstrap"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "LG"
 }
